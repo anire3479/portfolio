@@ -1,0 +1,40 @@
+.container {
+		text-align: center;
+	}
+
+.borders {
+		border: 1px solid black;
+	}
+
+.lan {
+		border-radius: 50px 50px 50px 50px;
+		/* border: solid; */
+		width:5em;
+		height:5em;
+		opacity: 0.5;
+	}
+
+.tau {
+	width:40em;
+	height:45em;
+	opacity: 0.5;
+	}
+
+#blog {
+	position: absolute;
+   top: 200px; 
+   width: 100%;
+   font-family: helvetica; 
+}
+
+#portfolio {
+	position: absolute; 
+   top: 200px; 
+   width: 100%; 
+   font-family: helvetica; 
+
+}
+
+img {
+	width:100em;
+}
