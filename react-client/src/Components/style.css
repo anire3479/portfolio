@@ -7,10 +7,59 @@
 .pageComponents {
   height: 1000px;
   padding: 40px 20px 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .pageComponents img {
   height: 500px;
-  padding-right: 100px;
-  width: 500px
+  width: 500px;
+  opacity: .4;
+  transition: .6s ease;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.pageComponents img:hover {
+  opacity: 1;
+}
+
+.pageComponents iframe {
+  height: 950px;
+  width: 800px;
+  opacity: .4;
+  transition: .6s ease;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.pageComponents iframe:hover {
+  opacity: 1;
+}
+
+.pageComponents .card {
+  opacity: .4;
+  transition: .6s ease;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.pageComponents .card:hover {
+  opacity: 1;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: .4; }
 }

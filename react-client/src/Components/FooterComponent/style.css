@@ -11,7 +11,12 @@ footer {
 footer a {
   padding-right: 20px;
   text-decoration: none;
-  color: white
+  color: white;
+  transition: .6s ease;
+}
+
+footer a:hover {
+  color: #13d4ed
 }
 
 footer div {
