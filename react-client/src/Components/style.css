@@ -1,0 +1,16 @@
+.website {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.pageComponents {
+  height: 1000px;
+  padding: 40px 20px 40px 20px;
+}
+
+.pageComponents img {
+  height: 500px;
+  padding-right: 100px;
+  width: 500px
+}

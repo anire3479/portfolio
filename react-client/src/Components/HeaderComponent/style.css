@@ -1,0 +1,40 @@
+
+
+header a {
+  text-decoration: none !important;
+  /* color: #13d4ed */
+  color: white;
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
+
+header span {
+  font-size: 48px
+}
+
+header p {
+  font-size: 12px;
+  margin: 4px 0px 4px 0px
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  width: 50%;
+  color: white;
+}
+
+.name {
+  width: 50%;
+  padding-left: 20px
+}
