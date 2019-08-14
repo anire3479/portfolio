@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Card from './CardComponent/Card'
+import Card from '../../Components/CardComponent/Card'
 
 class ProjectsPage extends Component {
   render() {
