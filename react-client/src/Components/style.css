@@ -12,20 +12,42 @@
   width: 100%;
 }
 
-.pageComponents img {
-  height: 500px;
-  width: 500px;
-  opacity: .4;
-  transition: .6s ease;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+.homePageComponents {
+  height: 1000px;
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.pageComponents img:hover {
+.homePageComponents div {
+  display: flex;
+  justify-content: space-evenly;
+  width: inherit;
+  opacity: .4;
+  transition: .6s ease;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.homePageComponents div:hover {
   opacity: 1;
+}
+
+.homePageComponents span {
+  width: 40%;
+  text-align: center;
+  align-self: center;
+}
+
+.homePageComponents img {
+  height: 500px;
+  width: 500px;
 }
 
 .pageComponents iframe {
@@ -33,11 +55,11 @@
   width: 800px;
   opacity: .4;
   transition: .6s ease;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
 .pageComponents iframe:hover {
@@ -47,15 +69,16 @@
 .pageComponents .card {
   opacity: .4;
   transition: .6s ease;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
 .pageComponents .card:hover {
   opacity: 1;
+  transform: scale(1.05);
 }
 
 
