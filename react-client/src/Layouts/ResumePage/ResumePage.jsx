@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import './style.css'
+
 class ResumePage extends Component {
   render() {
     return (
