@@ -1,3 +1,11 @@
+.link {
+  text-decoration: none !important;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card {
   width: 500px;
   height: 500px;
@@ -14,13 +22,6 @@
 }
 
 .description {
-  padding-top: 40px;
   color: white;
   text-align: center;
-  text-decoration: none;
-  display: none
-}
-
-.description:hover {
-  display: initial
 }

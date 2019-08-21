@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './style.css'
 
-class NavBar extends Component {
+class Header extends Component {
   render() {
     return (
       <header>
@@ -20,4 +20,4 @@ class NavBar extends Component {
     )
   }
 }
-export default NavBar;
+export default Header;
