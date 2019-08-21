@@ -9,7 +9,7 @@ class NavBar extends Component {
       <header>
         <div className="name">
           <span>Anire Bowman</span>
-          <p>Software Engineer, sneakerhead, curious learning machine</p>
+          <p>Software Engineer, Sneakerhead, Curious Learning Machine</p>
         </div>
         <div className="nav">
           <Link to="">About</Link>

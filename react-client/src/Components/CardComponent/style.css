@@ -2,5 +2,25 @@
   width: 500px;
   height: 500px;
   background: white;
-  border: blue
+  border: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.card img {
+  width: 450px;
+  height: 450px
+}
+
+.description {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: none
+}
+
+.description:hover {
+  display: initial
 }

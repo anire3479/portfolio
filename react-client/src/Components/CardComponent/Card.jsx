@@ -5,7 +5,12 @@ import './style.css'
 class Card extends Component {
   render() {
     return(
-      <div className="card" />
+      <a href={this.props.link}>
+        <div className="card">
+          <img src={this.props.img}/>
+        </div>
+        <span className="description">{this.props.description}</span>
+      </a>
     )
   }
 }
