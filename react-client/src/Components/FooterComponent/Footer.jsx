@@ -11,7 +11,7 @@ class Footer extends Component {
           <a href="https://github.com/anire3479">Github</a>
           <a href="https://medium.com/@anire3479">Medium</a>
           <a href="https://twitter.com/anire_bowman">Twitter</a>
-          <a href="mailto:anire.bowman@gmail.com">Email</a> 
+          <a href="mailto:anire.bowman@gmail.com">Email</a>
         </div>
       </footer>
     )

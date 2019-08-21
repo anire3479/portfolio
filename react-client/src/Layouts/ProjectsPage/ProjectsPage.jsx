@@ -14,7 +14,7 @@ class ProjectsPage extends Component {
     return(
       <div className="pageComponents">
         <Card img={driftOnboarding} description={DRIFT_DESCRIPTION} link="https://youtu.be/VjrM9s5cKos"/>
-        <Card img={emotionProject} description={EMOTION_DESCRIPTION} link="https://www.youtube.com/watch?v=nrJjACS6eC8"/>
+        <Card img={emotionProject} description={EMOTION_DESCRIPTION} link="https://youtu.be/nrJjACS6eC8"/>
       </div>
     )
   }
