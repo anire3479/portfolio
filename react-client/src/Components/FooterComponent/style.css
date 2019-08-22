@@ -9,7 +9,6 @@ footer {
 }
 
 footer a {
-  padding-right: 20px;
   text-decoration: none;
   color: white;
   transition: .6s ease;
@@ -21,4 +20,19 @@ footer a:hover {
 
 footer div {
   font-size: 12px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width:550px) {
+  footer div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  footer a {
+    padding: 0px;
+  }
 }

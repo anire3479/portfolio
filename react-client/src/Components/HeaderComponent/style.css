@@ -3,7 +3,7 @@
 header a {
   text-decoration: none !important;
   color: white;
-  padding-right: 20px;
+  padding-right: 30px;
   transition: .6s ease;
 }
 
@@ -40,5 +40,31 @@ header p {
 
 .name {
   width: 50%;
-  padding-left: 20px
+  padding-left: 30px
+}
+
+@media (max-width: 550px) {
+  header {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .name {
+    width: auto;
+    padding-left: 0px
+  }
+
+  .name p {
+    display: none;
+  }
+
+  .nav {
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-evenly;
+  }
+
+  .nav a {
+    padding: 0;
+  }
 }

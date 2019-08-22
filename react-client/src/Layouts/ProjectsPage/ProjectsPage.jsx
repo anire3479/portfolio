@@ -13,7 +13,7 @@ const EMOTION_DESCRIPTION_VIDEO = "https://youtu.be/nrJjACS6eC8"
 class ProjectsPage extends Component {
   render() {
     return(
-      <div className="pageComponents">
+      <div className="projectPageComponents">
         <Card img={driftOnboarding} description={DRIFT_DESCRIPTION} link={DRIFT_DESCRIPTION_VIDEO}/>
         <Card img={emotionProject} description={EMOTION_DESCRIPTION} link={EMOTION_DESCRIPTION_VIDEO}/>
       </div>

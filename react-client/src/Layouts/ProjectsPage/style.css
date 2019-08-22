@@ -1,12 +1,10 @@
-.pageComponents {
-  height: 1000px;
+.projectPageComponents {
   padding: 40px 20px 40px 20px;
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
 }
 
-.pageComponents .card {
+.projectPageComponents .card {
   opacity: .4;
   transition: .6s ease;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -16,12 +14,12 @@
             animation: fadein 1s;
 }
 
-.pageComponents .card:hover {
+.projectPageComponents .card:hover {
   opacity: 1;
   transform: scale(1.05);
 }
 
-.pageComponents .description {
+.projectPageComponents .description {
   opacity: 0;
   transition: .6s ease;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -31,6 +29,47 @@
             animation: fadein 1s;
 }
 
-.pageComponents a:hover .description {
+.projectPageComponents a:hover .description {
   opacity: 1;
+}
+
+@media (max-width: 1050px) {
+  .projectPageComponents {
+    flex-direction: column;
+  }
+
+  .projectPageComponents .link {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .projectPageComponents {
+    height: initial;
+    flex-direction: column;
+  }
+
+  .projectPageComponents .link {
+    height: initial;
+    align-items: center;
+    padding-bottom: 20px
+  }
+
+  .projectPageComponents .card {
+    height: 250px;
+    width: 250px
+  }
+
+  .projectPageComponents .card img {
+    height: 200px;
+    width: 200px
+  }
+
+  .projectPageComponents .description,
+  .projectPageComponents .card {
+    opacity: 1;
+  }
+
 }
