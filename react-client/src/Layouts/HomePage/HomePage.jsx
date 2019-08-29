@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import studentPicture from '../../Assets/student_picture.jpeg'
-import artPicture from '../../Assets/art_picture.jpg'
-
 import './style.css'
 
 class HomePage extends Component {
